@@ -1,19 +1,19 @@
-# ApiRestaurant
+# ApiRestaurant 🍲
 
 API para gerenciar pedidos das mesas de um restaurante.
 
-## Descrição
+## 📖 Descrição
 
 Este projeto é uma API RESTful desenvolvida em Node.js com TypeScript, utilizando Express e Knex.js com banco de dados SQLite. Ela permite o gerenciamento de produtos, mesas, sessões de mesas e pedidos em um restaurante.
 
-## Funcionalidades
+## ⚙️ Funcionalidades
 
 - **Produtos:** Cadastro, listagem, atualização e remoção de produtos do cardápio.
 - **Mesas:** Listagem das mesas do restaurante.
 - **Sessões de Mesas:** Abertura, listagem e fechamento de sessões para controle de ocupação das mesas.
 - **Pedidos:** Registro de pedidos vinculados a uma sessão de mesa, listagem dos pedidos e cálculo do total consumido.
 
-## Rotas
+## 🔥 Rotas
 
 ### Produtos
 
@@ -38,7 +38,7 @@ Este projeto é uma API RESTful desenvolvida em Node.js com TypeScript, utilizan
 - `GET /orders/table-session/:table_session_id` — Lista pedidos de uma sessão de mesa.
 - `GET /orders/table-session/:table_session_id/total` — Mostra o total consumido na sessão.
 
-## Instalação
+## 🤖 Instalação
 
 1. **Clone o repositório:**
    ```bash
@@ -68,7 +68,7 @@ Este projeto é uma API RESTful desenvolvida em Node.js com TypeScript, utilizan
 
    O servidor estará disponível em `http://localhost:3333`.
 
-## Estrutura do Projeto
+## 🛠️ Estrutura do Projeto
 
 - `src/controllers/` — Lógica das rotas.
 - `src/routes/` — Definição das rotas da API.
@@ -76,7 +76,7 @@ Este projeto é uma API RESTful desenvolvida em Node.js com TypeScript, utilizan
 - `src/utils/` — Utilitários e classes auxiliares.
 - `src/middlewares/` — Middlewares globais (ex: tratamento de erros).
 
-## Tecnologias
+## ❤️‍🔥 Tecnologias
 
 - Node.js
 - TypeScript
@@ -85,10 +85,11 @@ Este projeto é uma API RESTful desenvolvida em Node.js com TypeScript, utilizan
 - SQLite
 - Zod (validação)
 
-## Autor
+## 📝 Licença
 
-Rafael Roberto de Oliveira
+A API está sob a licença MIT.
 
 ---
 
 > Projeto desenvolvido para fins de estudo e demonstração de arquitetura de APIs RESTful.
+Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
