@@ -92,4 +92,5 @@ A API está sob a licença MIT.
 ---
 
 > Projeto desenvolvido para fins de estudo e demonstração de arquitetura de APIs RESTful.
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+
+> Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
