@@ -38,6 +38,15 @@ Este projeto é uma API RESTful desenvolvida em Node.js com TypeScript, utilizan
 - `GET /orders/table-session/:table_session_id` — Lista pedidos de uma sessão de mesa.
 - `GET /orders/table-session/:table_session_id/total` — Mostra o total consumido na sessão.
 
+## ❤️‍🔥 Tecnologias Utilizadas
+
+- Node.js
+- TypeScript
+- Express
+- Knex.js
+- SQLite
+- Zod (validação)
+
 ## 🤖 Instalação
 
 1. **Clone o repositório:**
@@ -75,15 +84,6 @@ Este projeto é uma API RESTful desenvolvida em Node.js com TypeScript, utilizan
 - `src/database/` — Configuração do banco, migrations e seeds.
 - `src/utils/` — Utilitários e classes auxiliares.
 - `src/middlewares/` — Middlewares globais (ex: tratamento de erros).
-
-## ❤️‍🔥 Tecnologias
-
-- Node.js
-- TypeScript
-- Express
-- Knex.js
-- SQLite
-- Zod (validação)
 
 ## 📝 Licença
 
